@@ -1,10 +1,15 @@
-html, body {
+*{
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
     height: 100%;
     margin: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centraliza horizontalmente */
+    justify-content: space-evenly; /* Centraliza horizontalmente */
     align-items: center;     /* Centraliza verticalmente */
     font-family:'Courier New', Courier, monospace;
 }
@@ -15,9 +20,15 @@ h1 {
 }
 
 p {
-    display: none;
     width: 530px;
     text-align: justify;
+}
+
+img{
+    display: none;
+    height: 250px;
+    width: auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .clean-button {
@@ -30,21 +41,25 @@ p {
     border-radius: 4px; /* Cantos arredondados */
     cursor: pointer; /* Ponteiro para interatividade */
     transition: all 0.3s ease; /* Suavizar transições */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .clean-button:hover {
     background-color: rgb(240, 190, 235); /* Fundo mais escuro ao passar o mouse */
     color: rgb(255, 255, 255); /* Texto branco no hover */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .clean-button:active {
     background-color: rgb(215, 160, 215); /* Fundo mais escuro ao clicar */
     border-color: rgb(215, 160, 215); /* Ajustar a borda */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .clean-button:focus {
     outline: none; /* Remover contorno padrão */
     box-shadow: 0 0 4px rgba(46, 24, 44, 0.5); /* Realce no foco */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .lightMode{
