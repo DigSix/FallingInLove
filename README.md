@@ -3,7 +3,7 @@
 Esse projeto foi um presente de aniversário que fiz pra minha namorada enquanto eu estava aprendendo programação web na faculdade.  
 Quis sair do básico das aulas e criar algo que tivesse mais significado — algo simples, feito do zero, mas com sentimento.
 
-📺 Veja o resultado: [Falling In Love (GitHub Pages)](https://digsix.github.io/FallingInLove/)
+[💘 Falling In Love (GitHub Pages)](https://digsix.github.io/FallingInLove/)
 
 ---
 
